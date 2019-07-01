@@ -1,6 +1,7 @@
 import React from 'react';
 import dotnetcoreimg from './assets/image/noname-1.png';
 import blogimg from './assets/image/blog.png';
+import ikeyoimg from './assets/image/ikeyo.png';
 
 const Portfolio = () => {
     return (
@@ -13,9 +14,10 @@ const Portfolio = () => {
                 <div className="portfolio__wrap--row">
                     <div className="portfolio__wrap--row--itembox">
                         <div className="portfolio__wrap--row--itembox--imgbox">
-                            <img src={dotnetcoreimg} alt="dotnet"/>
+                            <img src={ikeyoimg} alt="dotnet"/>
                         </div>
                         <h3>IKEYO HOME Decoration Platform</h3>
+                        <a href="https://ikeyo.herokuapp.com/" target="_blank" rel="noopener noreferrer">[LIVE]</a><a href="#">[Github]</a>
                         <p>Node.js(Express), ReactJS, JavaScript(ES6), SASS/CSS, HTML5</p>
                     </div>
                     <div className="portfolio__wrap--row--itembox">
@@ -23,6 +25,7 @@ const Portfolio = () => {
                             <img src={blogimg} alt="dotnet"/>
                         </div>
                         <h3>Personal Blog Platform </h3>
+                        <a href="https://github.com/ChrisSHDev/ReactJS_Blog" target="_blank" rel="noopener noreferrer">[Github]</a>
                         <p>ReactJS, Redux, Node.js(Kona), MongoDB, JavaScript(ES6), SASS/CSS, HTML5</p>
                     </div>
                     <div className="portfolio__wrap--row--itembox">
@@ -30,6 +33,7 @@ const Portfolio = () => {
                             <img src={dotnetcoreimg} alt="dotnet"/>
                         </div>
                         <h3>Eccomerce Plat form</h3>
+                        <a href="https://github.com/ChrisSHDev/dotNetCoreProject" target="_blank" rel="noopener noreferrer">[Github]</a>
                         <p>.NET CORE, MS-SQL, Bootstrap, C#, CSS/HTML5</p>
                     </div>
                 </div>

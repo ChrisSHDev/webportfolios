@@ -144,6 +144,7 @@
   margin: 20px auto;
   width: 70%;
   color: #1a2930;
+  min-height: 54.4px;
 }
 
 .portfolio__wrap--row {
@@ -157,6 +158,10 @@
   text-align: center;
   margin: 0 auto;
   background: #f7ce3e;
+}
+
+.portfolio__wrap--row--itembox a {
+  margin: 0 10px;
 }
 
 .portfolio__wrap--row--itembox--imgbox {

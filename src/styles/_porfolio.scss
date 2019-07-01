@@ -17,6 +17,7 @@
       margin: 20px auto;
       width: 70%;
       color: #1a2930;
+      min-height: 54.4px;
     }
 
     &--row {
@@ -26,6 +27,9 @@
         text-align: center;
         margin: 0 auto;
         background: #f7ce3e;
+        a{
+          margin: 0 10px;
+        }
         &--imgbox {
           width: 100%;
           img {
