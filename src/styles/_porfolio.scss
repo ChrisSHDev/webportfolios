@@ -1,0 +1,40 @@
+.portfolio {
+    padding-top: 60px;
+    padding-bottom: 94px;
+    background-color: #c5c1c0;
+  &__wrap {
+    h2 {
+      font-size: 48px;
+      text-align: center;
+      font-weight: 900;
+      margin: 20px 0px 20px 0px;
+      color: #1a2930;
+    }
+    h3{
+      font-size: 23px;
+      text-align: center;
+      font-weight: 900;
+      margin: 20px auto;
+      width: 70%;
+      color: #1a2930;
+    }
+
+    &--row {
+      display: flex;
+      &--itembox {
+        width: 25%;
+        text-align: center;
+        margin: 0 auto;
+        background: #f7ce3e;
+        &--imgbox {
+          width: 100%;
+          img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}

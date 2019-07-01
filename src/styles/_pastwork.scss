@@ -1,0 +1,95 @@
+.pastwork {
+  padding-top: 60px;
+  padding-bottom: 54px;
+  h3 {
+    font-size: 28px;
+    text-align: center;
+  }
+  &__wrap {
+    h2 {
+      font-size: 48px;
+      text-align: center;
+      font-weight: 900;
+      margin: 20px 0px 20px 0px;
+    }
+
+    &--row {
+      display: flex;
+      margin-bottom: 40px;
+      &--itembox {
+        &:hover {
+          h3 {
+            top: 25%;
+          }
+          p {
+            opacity: 1;
+          }
+          a{
+            opacity: 1;
+          }
+        }
+        position: relative;
+        width: 25%;
+        text-align: center;
+        margin: 0 auto;
+
+        &--imgbox {
+          width: 100%;
+          img {
+            width: 100%;
+          }
+        }
+
+        &--hoverbox {
+          position: absolute;
+          width: 100%;
+          top: 0;
+          height: 100%;
+          background: linear-gradient(to right, rgba(35, 31, 43, 0.35) 0%, rgba(35, 31, 43, 0.35) 100%);
+          h3 {
+            font-size: 28px;
+            text-align: center;
+            color: gray;
+            font-weight: 900;
+            margin: 20px 0px 20px 0px;
+            transition: 0.5s ease;
+            position: absolute;
+            top: 44%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+            width: 100%;
+            color: white;
+          }
+
+          p {
+            transition: 0.5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+            width: 100%;
+            color: white;
+            font-weight: 600;
+          }
+          a{
+            padding: 20px 0px;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: #f7ce3e;
+            opacity: 0;
+            text-decoration: none;
+            color: #1a2930;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}

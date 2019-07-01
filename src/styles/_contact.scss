@@ -1,0 +1,33 @@
+.contact {
+  padding-top: 60px;
+  padding-bottom: 38px;
+  background: #c5c1c0;
+  &__wrap {
+    display: flex;
+    &--col {
+      &:nth-child(3){
+        img{
+          height: 126.71px;
+        }
+      }
+      width: 33%;
+      text-align: center;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      a{
+        text-decoration: none;
+        color:#0a1612;
+      }
+      &--icon-img{
+        width: 30%;
+        margin: 0 auto;
+        img{
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

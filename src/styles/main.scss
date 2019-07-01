@@ -1,0 +1,17 @@
+@import './header';
+@import './app';
+@import './hero';
+@import './font';
+@import './tech';
+@import './porfolio';
+@import './contact';
+@import './pastwork';
+@import './footer';
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h3, h2{
+    color:#0A1612;
+}

@@ -1,0 +1,13 @@
+.footer{
+    &__wrap{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background: #F7CE3E;
+        &--desc{
+            text-align: center;
+            text-transform: uppercase;
+            color: #1A2930;
+            font-weight: 600;
+        }
+    }
+}

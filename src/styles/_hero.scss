@@ -1,0 +1,15 @@
+.hero {
+  background-image: url("../assets/image/code-944499_1280-1.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 200px 0px 200px 0px;
+
+  &__title {
+    text-transform: uppercase;
+    text-align: center;
+    color: #c5c1c0;
+    font-size: 53px;
+  }
+
+}
