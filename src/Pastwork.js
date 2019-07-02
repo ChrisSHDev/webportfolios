@@ -13,7 +13,7 @@ const Pastwork = () => {
                 <h2>
                     Past Work
                  </h2>
-                <h3>Clients's Website entirely developed by myself</h3>
+                <h3>Clients' Websites are entirely developed by myself</h3>
                 <div className="pastwork__wrap--row">
                     <div className="pastwork__wrap--row--itembox">
                         <div className="pastwork__wrap--row--itembox--imgbox">
