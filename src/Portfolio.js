@@ -3,6 +3,7 @@ import dotnetcoreimg from './assets/image/noname-1.png';
 import blogimg from './assets/image/blog.png';
 import ikeyoimg from './assets/image/ikeyo.png';
 import todo from './assets/image/todo.png';
+import videofliximg from './assets/image/videoflix.png';
 
 const Portfolio = () => {
     return (
@@ -23,22 +24,29 @@ const Portfolio = () => {
                     </div>
                     <div className="portfolio__wrap--row--itembox">
                         <div className="portfolio__wrap--row--itembox--imgbox">
-                            <img src={blogimg} alt="dotnet" />
+                            <img src={videofliximg} alt="dotnet" />
                         </div>
-                        <h3>Personal Blog Platform </h3>
-                        <a href="https://github.com/ChrisSHDev/ReactJS_Blog" target="_blank" rel="noopener noreferrer">[Github]</a>
-                        <p>ReactJS, Redux, Node.js(Kona), MongoDB, JavaScript(ES6), SASS/CSS, HTML5</p>
+                        <h3>Video Flix Platform </h3>
+                        <a href="https://videoflix-chris.herokuapp.com/" target="_blank" rel="noopener noreferrer">[LIVE]</a><a href="https://github.com/ChrisSHDev/videoflix" target="_blank" rel="noopener noreferrer">[Github]</a>
+                        <p>ReactJS, SASS, CSS/HTML5</p>
                     </div>
-
-                </div>
-                <div className="portfolio__wrap--row">
                     <div className="portfolio__wrap--row--itembox">
                         <div className="portfolio__wrap--row--itembox--imgbox">
                             <img src={todo} alt="dotnet" />
                         </div>
                         <h3>Simple To-do List </h3>
                         <a href="https://react-todolist-project.herokuapp.com/" target="_blank" rel="noopener noreferrer">[LIVE]</a><a href="https://github.com/ChrisSHDev/ReactJS_TodoList" target="_blank" rel="noopener noreferrer">[Github]</a>
-                        <p>.NET CORE, MS-SQL, Bootstrap, C#, CSS/HTML5</p>
+                        <p>ReactJS, Redux, SASS, CSS/HTML5</p>
+                    </div>
+                </div>
+                <div className="portfolio__wrap--row">
+                    <div className="portfolio__wrap--row--itembox">
+                        <div className="portfolio__wrap--row--itembox--imgbox">
+                            <img src={blogimg} alt="dotnet" />
+                        </div>
+                        <h3>Personal Blog Platform </h3>
+                        <a href="https://github.com/ChrisSHDev/ReactJS_Blog" target="_blank" rel="noopener noreferrer">[Github]</a>
+                        <p>ReactJS, Redux, Node.js(Kona), MongoDB, JavaScript(ES6), SASS/CSS, HTML5</p>
                     </div>
                     <div className="portfolio__wrap--row--itembox">
                         <div className="portfolio__wrap--row--itembox--imgbox">

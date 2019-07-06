@@ -5,6 +5,7 @@ import goldenrug from './assets/image/goldenrug.png';
 import vhm from './assets/image/vhm.png';
 import deficiency from './assets/image/deficiency.png';
 import solution from './assets/image/solution.png';
+import tcbt5 from './assets/image/tcbt5.png';
 
 const Pastwork = () => {
     return (
@@ -17,12 +18,12 @@ const Pastwork = () => {
                 <div className="pastwork__wrap--row">
                     <div className="pastwork__wrap--row--itembox">
                         <div className="pastwork__wrap--row--itembox--imgbox">
-                            <img src={vhm} alt="dotnet" />
+                            <img src={tcbt5} alt="dotnet" />
                         </div>
                         <div className="pastwork__wrap--row--itembox--hoverbox">
-                            <h3>Vancouver Home Maintenance</h3>
-                            <p>Wordpress, HTML5/CSS</p>
-                            <a href="https://vancouverhomemaintenance.com/" target="_blank" rel="noopener noreferrer">
+                            <h3>The Coding Bull<br/> Landing Page</h3>
+                            <p>Wordpress, JavaScript,  HTML5/CSS</p>
+                            <a href="https://website.thecodingbull.com/" target="_blank" rel="noopener noreferrer">
                                 <span>Visit Website</span>
                             </a>
                         </div>
@@ -33,7 +34,7 @@ const Pastwork = () => {
                         </div>
                         <div className="pastwork__wrap--row--itembox--hoverbox">
                             <h3>AC 3</h3>
-                            <p>Wordpress, Woocommerce, HTML5/CSS</p>
+                            <p>Wordpress, Woocommerce, JavaScript, HTML5/CSS</p>
                             <a href="http://sensolution.wpengine.com/" target="_blank" rel="noopener noreferrer">
                                 <span>Visit Website</span>
                             </a>
@@ -85,6 +86,20 @@ const Pastwork = () => {
                             <h3>Deficiency Group</h3>
                             <p>Wordpress, HTML5/CSS</p>
                             <a href="https://deficiencygroup.com/"target="_blank" rel="noopener noreferrer">
+                                <span>Visit Website</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="pastwork__wrap--row">
+                <div className="pastwork__wrap--row--itembox">
+                        <div className="pastwork__wrap--row--itembox--imgbox">
+                            <img src={vhm} alt="dotnet" />
+                        </div>
+                        <div className="pastwork__wrap--row--itembox--hoverbox">
+                            <h3>Vancouver Home Maintenance</h3>
+                            <p>Wordpress, HTML5/CSS</p>
+                            <a href="https://vancouverhomemaintenance.com/" target="_blank" rel="noopener noreferrer">
                                 <span>Visit Website</span>
                             </a>
                         </div>
